@@ -9,6 +9,12 @@
 	// Update the 'dockerFile' property if you aren't using the standard 'Dockerfile' filename.
 	"dockerFile": "../Dockerfile",
 
+	"args": {
+      "USERNAME": "vscode",
+	  "USER_UID": "1000",
+	  "USER_GID": "1000",
+      "NODE_ENV": "development"
+    }
 	// Set *default* container specific settings.json values on container create.
 	"customizations": {
 		"vscode": {
