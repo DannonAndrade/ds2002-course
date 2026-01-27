@@ -206,9 +206,12 @@ ls # and practice.txt is back
 
 Create repo `demo-repo` on GitHub. Then connect your local repo to it. By convention the remote is referred to as `origin`. Take note of the new repository's URL on GitHub.
 
+If you are working on your own computer (or any system other than Codespace), you should be able to use your Personal Access Token for authentication and continue with `Option 1: https protocol`. 
+
+If you are in Codespace or would like to explore the use of ssh keys, continue with `Option 2: ssh protocol`.
+
 **Option 1: https protocol**
 
-If you are working on your own computer (or any system other than Codespace), you should be able to use your Personal Access Token for authentication and continue with:
 ```bash
 git remote add origin https://github.com/ksiller/demo-repo.git # replace with your url
 git remote -v
@@ -456,6 +459,16 @@ Pull requests (PRs) are a way to propose changes to a repository. When you creat
    git pull origin main --merge
    git branch -d my-feature
    ```
+
+### Practice With GitHub Skills
+
+1. Go to **[GitHub Skills](https://skills.github.com/)**
+2. Find the first lesson, "Introduction to GitHub" and right-click on the link to open it in a new browser tab.
+3. Read the page closely, paying attention to what you will do in this lesson.
+4. Right-click on the "Start course" button (as instructed) to open it in a new brower tab.
+5. Follow the instructions closely to copy their lesson into your own account.
+6. Once that is complete, wait about 20 seconds and refresh the page in your copy of the lesson.
+7. Follow the instructions to complete the lesson.
 
 ## Advanced Concepts (Optional)
 
