@@ -1,0 +1,6 @@
+name	major	course	grade
+Alice Smith	Computer Science	DS2002	A
+Carol White	Math	MATH201	A
+Frank Lee	Biology	BIO101	A
+Henry Park	History	HIST101	A
+Iris Chen	Computer Science	DS2002	A
