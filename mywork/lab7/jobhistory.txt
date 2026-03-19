@@ -1,0 +1,34 @@
+JobID           JobName  Partition    Account  AllocCPUS      State ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+10209742     ood_vscode standard-+     ds2002          2    TIMEOUT      0:0 
+10209742.ba+      batch                ds2002          2  CANCELLED     0:15 
+10348670     ood_vscode standard-+     ds2002          2    TIMEOUT      0:0 
+10348670.ba+      batch                ds2002          2  CANCELLED     0:15 
+10348934     book-seri+ standard-+     ds2002          1  COMPLETED      0:0 
+10348934.ba+      batch                ds2002          1  COMPLETED      0:0 
+10350819     ood_vscode standard-+     ds2002          2    RUNNING      0:0 
+10350819.ba+      batch                ds2002          2    RUNNING      0:0 
+10350857_1   book-array standard-+     ds2002          1  COMPLETED      0:0 
+10350857_1.+      batch                ds2002          1  COMPLETED      0:0 
+10350857_2   book-array standard-+     ds2002          1  COMPLETED      0:0 
+10350857_2.+      batch                ds2002          1  COMPLETED      0:0 
+10350857_3   book-array standard-+     ds2002          1  COMPLETED      0:0 
+10350857_3.+      batch                ds2002          1  COMPLETED      0:0 
+10350857_4   book-array standard-+     ds2002          1  COMPLETED      0:0 
+10350857_4.+      batch                ds2002          1  COMPLETED      0:0 
+10350857_5   book-array standard-+     ds2002          1  COMPLETED      0:0 
+10350857_5.+      batch                ds2002          1  COMPLETED      0:0 
+10350884     book-seri+ standard-+     ds2002          1  COMPLETED      0:0 
+10350884.ba+      batch                ds2002          1  COMPLETED      0:0 
+10350916     book-seri+ standard-+     ds2002          1  COMPLETED      0:0 
+10350916.ba+      batch                ds2002          1  COMPLETED      0:0 
+10350928_1   book-array standard-+     ds2002          1  COMPLETED      0:0 
+10350928_1.+      batch                ds2002          1  COMPLETED      0:0 
+10350928_2   book-array standard-+     ds2002          1  COMPLETED      0:0 
+10350928_2.+      batch                ds2002          1  COMPLETED      0:0 
+10350928_3   book-array standard-+     ds2002          1  COMPLETED      0:0 
+10350928_3.+      batch                ds2002          1  COMPLETED      0:0 
+10350928_4   book-array standard-+     ds2002          1  COMPLETED      0:0 
+10350928_4.+      batch                ds2002          1  COMPLETED      0:0 
+10350928_5   book-array standard-+     ds2002          1  COMPLETED      0:0 
+10350928_5.+      batch                ds2002          1  COMPLETED      0:0 
