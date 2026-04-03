@@ -112,12 +112,14 @@ Replace `<uva_computing_id>` with your UVA computing ID (no `<>`).
 
 **If your database is empty (no tables), recreate the schema using your Lab 05 `initialize.sql`:**
 
-- On the Ubuntu EC2 instance, create a file named `initialize.sql` (for example with `nano`) and paste the contents of your Lab 05 `initialize.sql`, **or** clone your fork on the instance and `cd` to the directory that contains `initialize.sql`.
+- On the Ubuntu EC2 instance, create a file named `initialize.sql` (for example with `nano`) and paste the contents of your Lab 05 `initialize.sql`. **Alternatively** clone your fork on the instance and `cd` to the directory that contains `initialize.sql`.
 - From the directory that contains `initialize.sql`, run:
    ```bash
    MYSQL_PWD=""   # put your MySQL password between the quotes (same as Lab 05 for this RDS user)
    sudo docker run -i mysql:8.0 mysql -h ds2002.cgls84scuy1e.us-east-1.rds.amazonaws.com -P 3306 -u <uva_computing_id> -p"$MYSQL_PWD" < initialize.sql
    ```
+
+The `< initialize.sql` part is **shell input redirection**: the bash on your EC2 host opens `initialize.sql` and sends its contents to the process’s **standard input**. Combined with `docker run -i`, that stdin is attached to the `mysql` client inside the container, so MySQL executes every statement in the file against RDS (as if you had pasted the file at a `mysql>` prompt).
 
 ### Step 4: Update your MySQL database
 
