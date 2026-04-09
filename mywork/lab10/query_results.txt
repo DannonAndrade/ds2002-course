@@ -1,0 +1,4 @@
+name	major	course	grade
+Alice Smith	Computer Science	DS2002	A
+Eva Green	Computer Science	DS2002	B
+Iris Chen	Computer Science	DS2002	A
